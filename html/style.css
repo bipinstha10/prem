@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    display: flex;
+}
+.sidebar
+{
+    background-color: paleturquoise;
+    /* width: 2vw; */
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+.sidebar nav
+{
+    padding: 42px;
+}
+.sidebar nav li
+{
+    list-style: none;
+    padding: 15px 0;
+}
+.sidebar nav li a
+{
+    text-decoration: none;
+    color:black;
+}
+.main
+{
+    /*background-color: aqua;*/
+    width: 85vw;
+    padding: 10px;
+
+}
+.infoContainer
+{
+    /*background-color: blueviolet;*/
+    height: 78vh;
+    width: 80vw;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Source Code Pro', monospace;
+    flex-wrap: wrap;
+
+}
+.devInfo
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello
+{
+    font-size: 40px;
+    
+}
+.name
+{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.about
+{
+    font-size: 25px;
+}
+.moreabout
+{
+    margin-top: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size:17px;
+
+}
+.btn
+{
+    margin-top: 25px;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: paleturquoise;
+    font-family: sans-serif;
+    font-size:14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover
+{
+    background-color: azure;
+}
+.devPic img
+{
+height:78vh ;
+}
+.Contactme
+{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 100px;
+    padding-top: 48px;
+}
+.Contactme h1
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    margin-bottom: 20px;
+   
+}
+.Contactme form div
+{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    width: 18vw;
+}
+#emailHelp
+{
+    padding-left: 5px;
+    color: teal;
+    font-size: 12px;
+    margin-top: -19px;
+}
+.form-control
+{
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 9px;
+    border: 1px solid darkgrey;
+
+}
+#form-check
+{
+    display: flex;
+    flex-direction: row;
+}
+.form-check-input
+{
+    width: 21px;
+}
+.form-check-label
+{
+    font-size: 13px;
+    padding: 3px;
+}
+.blogContainer
+{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 100px;
+    padding-top: 48px;
+}
+h1
+{
+    font-family: 'Open Sans', sans-serif;
+
+}
+.blogItem
+{
+    margin:10px;
+}
+h2
+{
+    font-family: 'Open Sans', sans-serif;
+
+}
+p
+{
+    font-family: 'Source Code Pro', monospace;
+}
+.intro
+{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 100px;
+    padding-top: 48px;
+}
+.skillItem
+{
+    display: flex;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+}
+.skill
+{
+    background-color: rgb(5, 142, 142);
+    width: 76px;
+    height: 4px;
+    margin-top: 10px;
+}
+.hundred
+{
+    width: 200px;
+}
+.fifty
+{
+    width:100px;
+}
+.hamburger
+{
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    cursor: pointer;
+}
+.cross
+{
+    margin-left: 110px   ;
+}
+.sidebarGo
+{
+    transform: translate(-145px,0px);
+    position: absolute;
+}
+@media (max-width: 1024px) {
+    *
+    {
+        font-size: small;
+    }
+ .devPic
+ {
+    display: none;
+ }
+  }
